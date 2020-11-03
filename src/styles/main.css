@@ -1,0 +1,253 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.icon-container > p{
+    font-weight: bold;
+}
+
+.icon {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cadastrar {
+    width: 52px;
+    height: 52px;
+    color: white;
+    background-color: rgb(0, 116, 194);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+#modificar {
+    width: 52px;
+    height: 52px;
+    border-radius: 6px;
+    background-color: rgb(0, 116, 194);
+    color: white;
+    z-index: 1;
+}
+
+#deletar {
+    width: 56px;
+    height: 51px;
+    background-color: rgb(0, 116, 194);
+    color: white;
+    z-index: 1;
+    border-radius: 6px;
+}
+
+    .main-container > header {
+        width: 100%;
+        height: 70px;
+        z-index: 999;
+        position: fixed;
+        display: flex;
+    }
+
+    .main-container > header > .background {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 116, 194);
+        opacity: 0.8;  
+        position: absolute;
+        z-index: -1;
+    }
+
+    .main-container > header > .logo {
+        display: flex;
+        color: white;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .main-container > header > .logo > img {
+        width: 45px;
+        margin-right: 10px;
+    }
+
+    .main-container > header > .logo > h1{
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .main-container > header > .logo > p{
+        font-size: 25px;
+        margin-left: 2px;
+    }
+
+    .main-container > header > .right-header-menu {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+        .main-container > header > .right-header-menu > .help {
+            width: fit-content;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-right: 40px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .main-container > header > .right-header-menu > .help:hover {
+            opacity: 0.8;
+        }
+
+        .main-container > header > .right-header-menu > .help:active {
+            opacity: 0.5;
+        }
+
+        .main-container > header > .right-header-menu > .help > .icon {
+           margin-bottom: 2px;
+        }
+
+        .main-container > header > .right-header-menu > button {
+            border-radius: 4px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            width: 100px;
+            height: 40px;
+            cursor: pointer;
+            color: #f6f6f6;
+            background-color: rgb(48, 44, 71);
+            margin-right: 60px;
+            font-size: 17px;
+        }
+
+            .main-container > header > .right-header-menu button:active {
+                background-color: rgba(48, 44, 71, 0.644);
+            }
+
+    .main-container > .left-menu {
+        display: flex;
+        width: 261px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.719);
+        position: fixed;
+        left: 0;
+        padding-top: 70px;
+        list-style-type: none;
+        flex-direction: column;
+    }
+
+    .main-container > .left-menu > .welcome { 
+        margin-top: 20px;
+        color: #f6f6f6;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+        .main-container > .left-menu > .welcome > .profilePhoto {
+            width: 50px;
+            border-radius: 25px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+            .main-container > .left-menu > .welcome > .user-email > p {
+                font-size: 14px;
+            }
+
+            .main-container > .left-menu > .welcome > .user-email > .username-admin {
+                display: flex;
+            }
+
+            .main-container > .left-menu > .welcome > .user-email > .username-admin > h2 {
+                margin-bottom: 5px;
+                font-size: 18px;
+            }
+
+            .main-container > .left-menu > .welcome > .user-email > .username-admin > h2:last-child {
+                color: red;
+                margin-left: 10px; 
+            }
+
+    .main-container > .left-menu > .line {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+        border: 1px solid #f6f6f6;
+        align-self: center;
+    }
+
+    .main-container > .left-menu > .functions {
+        list-style-type: none;
+        color: #f6f6f6;
+        font-size: 25px;
+        width: 100%;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .main-container > .left-menu > .functions > li {
+        margin-top: 40px;
+        background-color: rgba(88, 88, 88, 0.884);
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 35px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .main-container > .left-menu > .functions > li:hover {
+        background-color: rgba(88, 88, 88, 0.733);
+        cursor: pointer; 
+        
+    }
+
+    .main-container > .left-menu > .functions > li > img {
+        margin-right: 20px;
+    }
+
+    .main-container > .layout {
+        display: flex;
+        width: 87%;
+        height: 100%;
+        margin-left: 15.5%;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow-y: scroll;
+    }
+
+    .main-container > button {
+        width: 200px;
+        height: 50px;
+        align-self: center;
+    }

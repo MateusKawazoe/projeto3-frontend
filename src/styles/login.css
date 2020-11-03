@@ -1,0 +1,196 @@
+.loading-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.loading-background {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.loading {
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.637);
+    position: absolute;
+}
+
+.container {
+    width: 425px;
+    height: fit-content;
+    display: flex;
+    background-color: #fff;
+    align-self: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.error {
+    font-size: 12px;
+    color: red;
+    margin-left: 4px;
+    margin-top: 5px;
+    display: none;
+}
+
+.inputSignup {
+    display: grid;
+}
+
+.inputSignup > input {
+    text-transform: none;
+}
+
+.singin_singup {
+    display: contents;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+h1 {
+    margin-left: 2px;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.photo-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    width: 126px;
+    position: absolute;
+    height: 158px;
+    bottom: 20px;
+    cursor: pointer;
+    opacity: 0;
+    right: 12px;
+}
+
+.profilePicture {
+    position: absolute;
+    height: 124px;
+    border-radius: 75px;
+    width: 124px;
+    right: 12px;
+    border: solid 1px black;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#profilePhoto {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 200px;
+}
+
+.tittle {
+    font-size: 25px;
+}
+
+input {
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.senhaInput {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+    .senhaInput > input {
+        width: 100%;
+    }
+
+    .senhaInput > .visible {
+        position: absolute;
+        height: 24px;
+        right: 12px;
+        width: 24px;
+        top: 23px;
+    }
+
+.icon {
+    cursor: pointer;
+}
+    .icon:active {
+        opacity: 0.5;
+    }
+
+.buttons_container {
+    align-self: flex-end;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 25px;
+    justify-content: flex-end;
+}
+    .buttons_container > a {
+        margin-right: 20px;
+        color: rgb(106, 153, 255);
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+        .buttons_container > a:hover {
+            color: rgb(35, 104, 255);
+        }
+
+    .buttons_container > button {
+        border-radius: 4px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        color: #f6f6f6;
+        background-color: rgb(48, 44, 71);  
+    }
+
+        .buttons_container button:active {
+            background-color: rgba(48, 44, 71, 0.644);
+        }
+
+.password {
+    -webkit-text-security: disc;
+    text-transform: none;
+}

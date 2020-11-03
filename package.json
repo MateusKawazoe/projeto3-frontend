@@ -1,0 +1,59 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cantonjs/react-scroll-view": "^0.4.2",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "base64-img": "^1.0.4",
+    "bootstrap": "^4.5.2",
+    "cloudinary-core": "^2.11.3",
+    "cloudinary-react": "^1.6.7",
+    "cloudinary-video-player": "^1.4.3",
+    "formik": "^2.1.5",
+    "intersection-observer": "^0.11.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "material-table": "^1.69.0",
+    "material-ui": "^0.20.2",
+    "mp4edit": "^1.0.6",
+    "react": "^16.13.1",
+    "react-datepicker": "^3.2.2",
+    "react-dom": "^16.13.1",
+    "react-file-reader": "^1.1.4",
+    "react-input-mask": "^2.0.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-strap-table": "^1.0.7",
+    "react-table": "^7.5.1",
+    "reactstrap": "^8.6.0",
+    "styled-components": "^5.2.0",
+    "sweetalert2": "^10.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
